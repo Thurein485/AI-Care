@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da Vinci Surgical Robot</title>
+    <!-- Favicon -->
+    <link rel="icon" href="Image/Logo.png" type="image/x-icon">
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        /* Header section for buttons */
+        .header {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background-color: #34495e;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .header button {
+            background-color: #5a6e86;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .header button:hover {
+            background-color: #1abc9c;
+            transform: scale(1.05);
+        }
+        /* Main content styling */
+        .main-content {
+            display: flex;
+            flex: 1;
+            padding: 40px;
+            gap: 30px;
+            background-color: #ecf0f3;
+        }
+        .description-box {
+            background-color: #3b4b61;
+            color: #f2f4f8;
+            padding: 30px;
+            border-radius: 10px;
+            width: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        .description-box h2 {
+            font-size: 1.8em;
+            color: #1abc9c;
+            margin-bottom: 15px;
+        }
+        .description-box p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        .description-box h3 {
+            color: #1abc9c;
+            font-size: 1.4em;
+            margin: 15px 0;
+        }
+        .description-box ul {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+        .video-box {
+            background-color: #34495e;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            height: auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        .video-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        /* Footer styling */
+        footer {
+            background-color: #34495e;
+            color: #f2f4f8;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+            margin-top: auto;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section with Buttons -->
+    <div class="header">
+        <button onclick="window.location.href='AI Health Care.html'">Go back</button>
+        <button>Da Vinci Surgical Robot</button>
+    </div>
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="description-box">
+            <h2>Da Vinci Surgical Robot</h2>
+            <p>The Da Vinci Surgical System is a state-of-the-art robotic platform that enhances a surgeon’s ability to perform complex procedures with precision. It’s not an independent robot but a tool controlled by a highly skilled surgeon.</p>
+            <p>The system includes robotic arms attached to surgical instruments. A surgeon sits at a console and controls these arms, which can rotate and move in ways that human hands cannot. A 3D camera provides a high-definition view of the surgical site, magnifying it significantly.</p>
+            <h3>Benefit:</h3>
+            <ul>
+                <li>Minimally Invasive Procedures: Small incisions mean less pain for the patient, shorter recovery time, and reduced risk of infection.</li>
+                <li>Enhanced Control: The robotic arms filter out hand tremors, allowing for steady and accurate movements.</li>
+                <li>Improved Access: The robot can reach areas of the body that might be challenging to operate on with traditional techniques.</li>
+            </ul>
+            <h3>Real-Life Uses</h3>
+            <ul>
+                <li>Cancer surgeries, such as prostate or kidney cancer removal.</li>
+                <li>Heart valve repair.</li>
+                <li>Treating gynecological conditions like endometriosis.</li>
+            </ul>
+        </div>
+        <div class="video-box">
+            <img src="Image/5f06f604bcc0972f75e51149b245d6303ff25dc3-1200x1000.jpg" alt="Da Vinci Surgical Robot Image">
+            <iframe src="https://www.youtube.com/embed/-jm63JdTrp4?si=BKBkAp1qUNl6H-YX" 
+                    title="Da Vinci Surgical Robot Video" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 <a href="terms.html" style="color: #1abc9c; text-decoration: none;">AI Care</a>. All rights reserved.</p>
+    </footer>
+</body>
+</html>

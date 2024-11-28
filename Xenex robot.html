@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xenex Germ-Zapping Robot</title>
+    <!-- Favicon -->
+    <link rel="icon" href="Image/Logo.png" type="image/x-icon">
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* Header section for buttons */
+        .header {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background-color: #34495e;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .header button {
+            background-color: #5a6e86;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .header button:hover {
+            background-color: #1abc9c;
+            transform: scale(1.05);
+        }
+
+        /* Main content styling */
+        .main-content {
+            display: flex;
+            flex: 1;
+            padding: 40px;
+            gap: 30px;
+            background-color: #ecf0f3;
+        }
+
+        .description-box {
+            background-color: #3b4b61;
+            color: #f2f4f8;
+            padding: 30px;
+            border-radius: 10px;
+            width: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .description-box h2 {
+            font-size: 1.8em;
+            color: #1abc9c;
+            margin-bottom: 20px;
+        }
+
+        .description-box p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .description-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .video-box {
+            background-color: #34495e;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .video-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 10px;
+        }
+
+        .video-box p {
+            font-size: 0.9em;
+            color: #cfd6e3;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #34495e;
+            color: #f2f4f8;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+            margin-top: auto;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section with Buttons -->
+    <div class="header">
+        <button onclick="window.location.href='AI Health Care.html'">Go back</button>
+        <button>Xenex Germ-Zapping Robot</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="description-box">
+            <h2>Xenex Germ-Zapping Robot</h2>
+            <p>The Xenex Germ-Zapping Robot is a UV-C light-based cleaning device used to disinfect and sanitize spaces, especially in healthcare settings. It autonomously moves through rooms, using intense UV light to kill harmful pathogens, such as viruses, and deactivate bacteria. The robot helps reduce the spread of infections, making it a valuable tool for hospitals and clinics in maintaining hygiene.</p>
+            
+            <p>The Xenex Germ-Zapping Robot utilizes pulsed xenon UV-C light, which is proven to be effective in rapidly disinfecting surfaces and deactivating pathogens. Unlike traditional mercury UV light, xenon light is chemical-free and environmentally safe, making it a sustainable option for healthcare facilities. The robot’s UV-C pulses penetrate the DNA of bacteria, viruses, and spores, destroying their ability to replicate and spread. This advanced technology enables a higher level of sterilization compared to conventional cleaning practices.</p>
+        </div>
+        <div class="video-box">
+            <img src="Image/LSDC1004-Robot-Blog_Oct17.jpg" alt="Xenex Germ-Zapping Robot Image">
+            <iframe src="https://www.youtube.com/embed/92P9JfpdO_Y?si=l5GD1DYmCt1L5J-n" 
+                    title="Xenex Germ-Zapping Robot Video" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+            <p>Video credit: Xenex Disinfection Services</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 <a href="terms.html" style="color: #1abc9c; text-decoration: none;">AI Care</a>. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>

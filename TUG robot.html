@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUG Robot</title>
+    <!-- Favicon -->
+    <link rel="icon" href="Image/Logo.png" type="image/x-icon">
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        /* Header section for buttons */
+        .header {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background-color: #34495e;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .header button {
+            background-color: #5a6e86;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .header button:hover {
+            background-color: #1abc9c;
+            transform: scale(1.05);
+        }
+        /* Main content styling */
+        .main-content {
+            display: flex;
+            flex: 1;
+            padding: 40px;
+            gap: 30px;
+            background-color: #ecf0f3;
+        }
+        .description-box {
+            background-color: #3b4b61;
+            color: #f2f4f8;
+            padding: 30px;
+            border-radius: 10px;
+            width: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        .description-box h2 {
+            font-size: 1.8em;
+            color: #1abc9c;
+            margin-bottom: 15px;
+        }
+        .description-box p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        .description-box h3 {
+            color: #1abc9c;
+            font-size: 1.4em;
+            margin: 15px 0;
+        }
+        .description-box ul {
+            margin-left: 20px;
+            list-style-type: disc;
+        }
+        .video-box {
+            background-color: #34495e;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            height: auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        .video-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .video-box iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 10px;
+        }
+        /* Footer styling */
+        footer {
+            background-color: #34495e;
+            color: #f2f4f8;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 0.9em;
+            margin-top: auto;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section with Buttons -->
+    <div class="header">
+        <button onclick="window.location.href='AI Health Care.html'">Go back</button>
+        <button>TUG Robot</button>
+    </div>
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="description-box">
+            <h2>TUG Robot</h2>
+            <p>The TUG Robot is an advanced, autonomous mobile robot designed to transport supplies, medications, and other materials within hospitals and healthcare facilities. By automating routine transport tasks, TUG enhances efficiency and allows healthcare staff to focus more on patient care.</p>
+            <p>This robot is equipped with various sensors and navigation systems, allowing it to safely maneuver around people and obstacles in complex environments like hospital hallways. It can carry loads of up to 450 pounds and is designed to dock itself for recharging, ensuring it is ready to operate whenever needed.</p>
+            <h3>Benefits:</h3>
+            <ul>
+                <li>Labor Efficiency: Reduces the time staff spend on transporting items, allowing them to focus on patient care.</li>
+                <li>Enhanced Safety: Uses sensors to navigate autonomously and avoid collisions with people and objects.</li>
+                <li>Reliable Delivery: Ensures timely transport of medications, linens, and other critical supplies across facilities.</li>
+            </ul>
+            <h3>Real-Life Uses</h3>
+            <ul>
+                <li>Delivering medications to patient rooms or specific departments.</li>
+                <li>Transporting lab specimens and surgical supplies.</li>
+                <li>Carrying linens, meals, or other essentials within large hospital facilities.</li>
+            </ul>
+        </div>
+        <div class="video-box">
+            <img src="Image/102417241-robot.jpg" alt="TUG Robot Image">
+            <iframe 
+                src="https://www.youtube.com/embed/Zrf2dxDlnwE?si=5PknbILc2PyEwIrQ" 
+                title="TUG Robot Video" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 <a href="terms.html" style="color: #1abc9c; text-decoration: none;">AI Care</a>. All rights reserved.</p>
+    </footer>
+</body>
+</html>
